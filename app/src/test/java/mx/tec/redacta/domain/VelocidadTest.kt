@@ -8,7 +8,7 @@ class VelocidadTest {
 
     @Test
     fun once_tokens_en_un_segundo_son_diez_por_segundo() {
-        // Entre el primero y el último hay 10 intervalos, no 11.
+        // Entre el primero y el último hay 10 intervalos, no 11.SD
         assertEquals(10.0, tokensPorSegundo(11, 1000)!!, 0.001)
     }
 
